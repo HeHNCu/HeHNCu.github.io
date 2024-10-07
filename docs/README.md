@@ -8,3 +8,5 @@ cout<<"Hello World!";
 ```js
 alert("Hello World");
 ```
+
+$Latex$

@@ -1,0 +1,5 @@
+git add .       
+git commit -m ""
+git push --set-upstream origin docs
+
+# 这个是存git命令的
