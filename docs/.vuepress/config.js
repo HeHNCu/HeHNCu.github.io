@@ -5,7 +5,15 @@ import MarkdownItKatex from "markdown-it-katex";
 
 export default defineUserConfig({
   bundler: viteBundler(),
-  theme: defaultTheme(),
+  theme: defaultTheme({
+    // 默认主题配置
+    navbar: [
+      {
+        text : '首页',
+        link : 'baidu.com'
+      }
+    ]
+  }),
   extendsMarkdown: (md) => {
     md.use(MarkdownItKatex);
   },
