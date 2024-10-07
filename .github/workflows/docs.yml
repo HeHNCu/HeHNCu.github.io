@@ -1,29 +1,49 @@
-# 选择你要使用的 docker 镜像
-image: node:18-buster
+name: 部署文档
 
-pages:
-  # 每当 push 到 main 分支时触发部署
-  only:
-    - main
+on:
+  push:
+    branches:
+      # 确保这是你正在使用的分支名称
+      - master
 
-  # 缓存 node_modules
-  cache:
-    key:
-      files:
-        - pnpm-lock.yaml
-    paths:
-      - .pnpm-store
+permissions:
+  contents: write
 
-  # 安装 pnpm
-  before_script:
-    - curl -fsSL https://get.pnpm.io/install.sh | sh -
-    - pnpm config set store-dir .pnpm-store
+jobs:
+  deploy-main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
 
-  # 安装依赖并运行构建脚本
-  script:
-    - pnpm install --frozen-lockfile
-    - pnpm docs:build --dest public
+      - name: 安装 npm
+        uses: npm/action-setup@v2
+        with:
+          run_install: true
+          version: 8
 
-  artifacts:
-    paths:
-      - public
+
+      - name: 设置 Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: npm
+
+
+      - name: 构建文档
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        run: |-
+          npm run docs:build
+          > docs/.vuepress/dist/.nojekyll
+
+      - name: 部署文档
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # 这是文档部署到的分支名称
+          branch: master
+          folder: docs/.vuepress/dist
