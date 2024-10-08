@@ -12,9 +12,10 @@ export default defineUserConfig({
         text : '首页',
         link : 'baidu.com'
       }
-    ]
+    ],
   }),
   extendsMarkdown: (md) => {
     md.use(MarkdownItKatex);
   },
+  
 })
