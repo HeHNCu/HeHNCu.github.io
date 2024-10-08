@@ -2,7 +2,6 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"D:/WebPages/dunUY.cn/HeHNCu.github.io/HeHNCu/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"这里是HeH_NCu 的个人网站"} }],
-  ["/guide/getting-started.html", { loader: () => import(/* webpackChunkName: "guide_getting-started.html" */"D:/WebPages/dunUY.cn/HeHNCu.github.io/HeHNCu/docs/.vuepress/.temp/pages/guide/getting-started.html.js"), meta: {"title":"hh"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"D:/WebPages/dunUY.cn/HeHNCu.github.io/HeHNCu/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 

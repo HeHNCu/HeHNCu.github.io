@@ -10,12 +10,16 @@ export default defineUserConfig({
     navbar: [
       {
         text : '首页',
-        link : 'baidu.com'
+        link : '/'
+      },
+      {
+        text : '信竞(配置未成功)',
+        link : 'docs/.vuepress/OI.md'
       }
     ],
   }),
   extendsMarkdown: (md) => {
     md.use(MarkdownItKatex);
   },
-  
+  title : 'HeH_NCu' 
 })

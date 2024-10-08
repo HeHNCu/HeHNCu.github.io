@@ -7,7 +7,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
-  "author": "HeHNCu",
+  "author": "HeH_NCu",
   "license": "MIT",
   "devDependencies": {
     "@octokit/rest": "^21.0.2",
