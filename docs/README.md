@@ -9,4 +9,4 @@ cout<<"Hello World!";
 alert("Hello World");
 ```
 
-$Latex$
+为啥导航栏配置不行啊

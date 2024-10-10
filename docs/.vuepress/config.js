@@ -14,7 +14,7 @@ export default defineUserConfig({
       },
       {
         text : '信竞(配置未成功)',
-        link : 'docs/.vuepress/OI.md'
+        link : './OI.md'
       }
     ],
   }),
