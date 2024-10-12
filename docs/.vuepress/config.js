@@ -13,8 +13,8 @@ export default defineUserConfig({
         link : '/'
       },
       {
-        text : '信竞(配置未成功)',
-        link : './OI.md'
+        text : '信竞',
+        link : '/OI.md'
       }
     ],
   }),
