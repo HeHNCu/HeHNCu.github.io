@@ -1,5 +1,8 @@
-<template><div><h1 id="p1054-noip2005-提高组-等价表达式" tabindex="-1"><a class="header-anchor" href="#p1054-noip2005-提高组-等价表达式"><span>P1054 [NOIP2005 提高组] 等价表达式</span></a></h1>
-<p>具体的在<RouteLink to="/essays/OI/2024.10/P1054%20%5BNOIP2005%20%E6%8F%90%E9%AB%98%E7%BB%84%5D%20%E7%AD%89%E4%BB%B7%E8%A1%A8%E8%BE%BE%E5%BC%8F.html">这里</RouteLink></p>
+<template><div><h1 id="文章" tabindex="-1"><a class="header-anchor" href="#文章"><span>文章</span></a></h1>
+<h2 id="题解" tabindex="-1"><a class="header-anchor" href="#题解"><span>题解</span></a></h2>
+<h3 id="p2734-usaco3-3-游戏-a-game" tabindex="-1"><a class="header-anchor" href="#p2734-usaco3-3-游戏-a-game"><span>P2734 [USACO3.3] 游戏 A Game</span></a></h3>
+<p>这是一道非常经典的区间动态规划题目，但是可以用 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><mi>f</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">dfs</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.69444em;"></span><span class="strut bottom" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit">d</span><span class="mord mathit" style="margin-right:0.10764em;">f</span><span class="mord mathit">s</span></span></span></span>。<s>十分锻炼人的思路</s>
+具体的在<a href="P2734%20%5BUSACO3.3%5D%20%E6%B8%B8%E6%88%8F%20A%20Game">这里</a></p>
 </div></template>
 
 
