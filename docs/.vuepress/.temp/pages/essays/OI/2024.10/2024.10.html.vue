@@ -6,6 +6,9 @@
 <h3 id="p2979-usaco10jan-cheese-towers-s" tabindex="-1"><a class="header-anchor" href="#p2979-usaco10jan-cheese-towers-s"><span>P2979 [USACO10JAN] Cheese Towers S</span></a></h3>
 <p>非常典型的背包类的问题
 题解在<a href="P2979%20%5BUSACO10JAN%5D%20Cheese%20Towers%20S">这里</a></p>
+<h3 id="p1131-zjoi2007-时态同步" tabindex="-1"><a class="header-anchor" href="#p1131-zjoi2007-时态同步"><span>P1131 [ZJOI2007] 时态同步</span></a></h3>
+<p>较为简单的树上动态规划题目，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><mi>f</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">dfs</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.69444em;"></span><span class="strut bottom" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit">d</span><span class="mord mathit" style="margin-right:0.10764em;">f</span><span class="mord mathit">s</span></span></span></span> 为最好思路
+题解在<RouteLink to="/essays/OI/2024.10/P1131%20%5BZJOI2007%5D%20%E6%97%B6%E6%80%81%E5%90%8C%E6%AD%A5.html">这里</RouteLink></p>
 </div></template>
 
 

@@ -1,11 +1,10 @@
-<template><div><h1 id="这里是heh-ncu-的个人网站" tabindex="-1"><a class="header-anchor" href="#这里是heh-ncu-的个人网站"><span>这里是HeH_NCu 的个人网站</span></a></h1>
-<div class="language-c line-numbers-mode" data-highlighter="prismjs" data-ext="c" data-title="c"><pre v-pre><code><span class="line"><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"Hello World!"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span>
-<span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><div class="language-cpp line-numbers-mode" data-highlighter="prismjs" data-ext="cpp" data-title="cpp"><pre v-pre><code><span class="line">cout<span class="token operator">&lt;&lt;</span><span class="token string">"Hello World!"</span><span class="token punctuation">;</span></span>
-<span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-highlighter="prismjs" data-ext="js" data-title="js"><pre v-pre><code><span class="line"><span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">"Hello World"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span>
-<span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div></div></div><p>为啥导航栏配置不行啊</p>
+<template><div><h1 id="hello-world" tabindex="-1"><a class="header-anchor" href="#hello-world"><span>Hello World</span></a></h1>
+<h1 id="介绍-introductions" tabindex="-1"><a class="header-anchor" href="#介绍-introductions"><span>介绍/introductions</span></a></h1>
+<p>这里是 <code v-pre>HeH_NCu</code> 的个人网站，主要用于存放 <code v-pre>OI(Olympiad in Informatics)</code> 的题解，具体的篇章可以看上面的导航栏。</p>
+<p>This is the personal website of <code v-pre>HeH_NCu</code>, which is mainly used to store the solution of <code v-pre>OI(Olympiad in Informatics)</code> , and the specific chapter can be seen in the navigation bar above.</p>
+<h1 id="目的-aims" tabindex="-1"><a class="header-anchor" href="#目的-aims"><span>目的/aims</span></a></h1>
+<p>没有啥目的 <s>，只是为了炫耀我的代码技术</s>。</p>
+<p>There's no purpose <s>, just to show off my coding skills</s>.</p>
 </div></template>
 
 
