@@ -5,6 +5,7 @@
 <h1 id="目的-aims" tabindex="-1"><a class="header-anchor" href="#目的-aims"><span>目的/aims</span></a></h1>
 <p>没有啥目的 <s>，只是为了炫耀我的代码技术</s>。</p>
 <p>There's no purpose <s>, just to show off my coding skills</s>.</p>
+<p>powered by <a href="https://vuepress.vuejs.org/" target="_blank" rel="noopener noreferrer">Vuepress</a></p>
 </div></template>
 
 

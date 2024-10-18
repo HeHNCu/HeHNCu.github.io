@@ -7,3 +7,5 @@ This is the personal website of `HeH_NCu`, which is mainly used to store the sol
 没有啥目的 ~~，只是为了炫耀我的代码技术~~。
 
 There's no purpose ~~, just to show off my coding skills~~.
+
+powered by [Vuepress](https://vuepress.vuejs.org/)
