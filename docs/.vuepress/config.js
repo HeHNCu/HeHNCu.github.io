@@ -20,6 +20,6 @@ export default defineUserConfig({
   }),
   extendsMarkdown: (md) => {
     md.use(MarkdownItKatex);
-  },
+  }, 
   title : 'HeH_NCu' 
 })
