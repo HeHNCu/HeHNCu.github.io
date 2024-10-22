@@ -15,6 +15,9 @@
 <h3 id="p1280-尼克的任务" tabindex="-1"><a class="header-anchor" href="#p1280-尼克的任务"><span>P1280 尼克的任务</span></a></h3>
 <p>实际上就是一个很容易的 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><mi>p</mi></mrow><annotation encoding="application/x-tex">dp</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height:0.69444em;"></span><span class="strut bottom" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="base textstyle uncramped"><span class="mord mathit">d</span><span class="mord mathit">p</span></span></span></span> + 滑动窗口 类型的题目
 题解在<RouteLink to="/essays/OI/2024.10/P1280%20%E5%B0%BC%E5%85%8B%E7%9A%84%E4%BB%BB%E5%8A%A1.html">here</RouteLink></p>
+<h3 id="p2602-zjoi2010-数字计数" tabindex="-1"><a class="header-anchor" href="#p2602-zjoi2010-数字计数"><span>P2602 [ZJOI2010] 数字计数</span></a></h3>
+<p>一道非常不那么经典的<code v-pre>计数 dp</code> 题目
+题解在<RouteLink to="/essays/OI/2024.10/P2602%20%5BZJOI2010%5D%20%E6%95%B0%E5%AD%97%E8%AE%A1%E6%95%B0.html">者力</RouteLink></p>
 </div></template>
 
 
